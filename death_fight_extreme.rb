@@ -146,37 +146,6 @@ end
 
 game1 = Game.new()
 
-# player1 = Player.new("Clinton")
-# game1.add_players(player1)
-# player2 = Player.new("Armados")
-# game1.add_players(player2)
-# player3 = Player.new("Basil")
-# game1.add_players(player3)
-
-# puts player1
-# puts
-# player1.attack
-# player1.score_point(300)
-# player1.score_point(600)
-# puts player1
-# puts
-
-# evilplayer1 = NonPlayerCharacter.new("Xanatos", 100)
-# game1.add_players(evilplayer1)
-# evilplayer2 = NonPlayerCharacter.new("Diamsus", 100)
-# game1.add_players(evilplayer2)
-# evilplayer3 = NonPlayerCharacter.new("Dudeface", 100)
-# game1.add_players(evilplayer3)
-
-# evilplayer1.attack(player1)
-# evilplayer1.attack(player1)
-# evilplayer1.attack(player1)
-# player1.attack_with_axe(evilplayer1)
-# player1.attack_with_axe(evilplayer1)
-# puts evilplayer1
-# puts player1
-# puts
-
 require 'artii'
 
 a = Artii::Base.new :font => 'epic'
